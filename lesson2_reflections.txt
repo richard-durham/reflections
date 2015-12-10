@@ -1,0 +1,8 @@
+Udacity - Git & Github course
+
+Lesson 2 Reflections
+
+* Reflect: Initializing a Repository
+What happens when you initalize a repository?  Why do you need to do it?
+When you initialize a repository, Git creates the .git file, and takes an inventory of what is in the directory/repository.
+Without the inital inventory, Git would not know what it had to work with.

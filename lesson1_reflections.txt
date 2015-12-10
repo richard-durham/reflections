@@ -1,0 +1,37 @@
+Udacity - How to Use Git and GitHub course
+
+* Reflection on using diff to find bugs.
+
+Specifically regression bugs - i.e. issues that are known to have worked previously but now do not work properly.  These bugs are due to code changes, and thus a diff between the current (non-working) version and the previous (working) version would be ideal for quickly locating the code change that caused the bug.
+
+* Reflection on Using History for Efficiency
+
+We writing code to solve a problem we will often have to try various approaches.  i.e. you try an approach and then find that it won\'92t work for some reason, so you try a different approach.  Having the history of the different approaches you have taken, or that someone else has taken, can help to keep someone from making the same mistake again (like with fixing one bug, by knowing what hasn\'92t worked in the past you can refrain from fixing the one bug and introducing one that had already been fixed previously).
+
+* Reflection - Manual Commits
+
+What are pros and cons of manually choosing when to commit versus auto commit?\
+Con is that it is up to the user to determine when to commit - some will commit too often, while others will commit too infrequently.
+Pro choosing when to commit, and committing appropriately, should result in each commit being a logical update which is understandable.
+
+* Reflection - Multi-File Commits
+
+why do some systems allow saving multiple files in one commit, while others treat each file separately?
+Horses for courses.  Git is specifically for software development - where multiple files interact to produce the whole of the end product.  Systems like DropBox or Google Docs are designed for normal document usage - where each document is likely to be stand alone.
+
+* Reflection - Using Git to view history
+
+How can you use the commands git log and git diff to view the history of files?
+git log - provides a list of all the commits that have been made, with the most recent at the top.  This shows, with the message provided, what has changed and when.
+git diff - allows you to compare any two git commits and see precisely what changed between them, both what has been added as well as what has been removed.
+
+* Reflection - Confidence from Version Control
+
+How might using version control make you more confident to make changes that could break something?
+Knowing that I can put everything back, exactly as it was, will allow me to be more confident in trying out different ways of coding things.
+
+* Reflection - How do you want to use Git?
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Track code changes.  I want to get some code up on GitHub as a sort of online showcase for my coding skills.
+
