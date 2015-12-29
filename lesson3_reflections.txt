@@ -1,0 +1,3 @@
+When would you want to create a remote repository rather than keeping all your work local?
+A remote repository is a good form of backup, for safety.
+A remote repository is ideal, verging on madatory, for working with others.
