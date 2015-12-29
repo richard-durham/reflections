@@ -6,3 +6,11 @@ A remote repository is ideal, verging on madatory, for working with others.
 *Reflect: Manual vs automatic pull
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 An automatic pull would be like a merge of the branch on GitHub and the one I have, and it would happen when git or github decided it should happen and thus could cause problems for me at an inopportune time.
+
+*Reflect: Forks, Clones, and Branches
+Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+A fork is for when you want to build ontop of code someone else on GitHub has (ask permission!).  This ensures that it is clear on your repository where the effort came from.
+A clone is for when you want to build ontop of a repository but in such a way so as to not impact the original repository.
+Forks are a GitHub version of Clone, but only from one GitHub repository to another.  Whereas clones are a Git things and can occur between GitHub and a local machine or just on the local machine.
+Branches are for when you are likely to want to merge the new code with another branch of code.  It is all work for the same purpose and so should remain tightly coupled.
+
