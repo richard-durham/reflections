@@ -22,3 +22,15 @@ Branches would be useful for keeping uncertain changes seperate from the main/wo
 *Refelect: Visualizing with Diagrams
 How do the diagrams help you visualize the branch structure?
 The diagrams shows which commits make up each branch, thus making it easier to see what is in common and what is unique to each branch.
+
+*Reflect: Merging Two Branches
+What is the result of merging two branches together?  Why do we represent it in the diagram the way we do?
+The result of megering, successfully, two branches, is to bring the code unique to each branch together into a single branch (hopefully all working).  This means that the commits in each branch are now accessible under the single branch name.
+We represent merging of two branches in the diagram to clearly show that it was two branches that have been brought together.
+
+*Reflect: Automatic vs Manual Merging
+What are the pros and cons of Git's automatic merging vs always doing mergers manually?
+Pro - saves time.  Yes something could be broken in the merge but the automatic approach seems to minimize that likelyhood whilst still offering ease of automation.
+Cons - If something breaks with automatic merge then you have to go and find out what has broken and why.  
+If you always had to merge manually it would take a lot of time, every time, so making it less likely that you would merge.  So automatic saves times, at a small increase in risk.
+
