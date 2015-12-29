@@ -2,3 +2,7 @@
 When would you want to create a remote repository rather than keeping all your work local?
 A remote repository is a good form of backup, for safety.
 A remote repository is ideal, verging on madatory, for working with others.
+
+*Reflect: Manuam vs automatic pull
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+An automatic pull would be like a merge of the branch on GitHub and the one I have, and it would happen when git or github decided it should happen and thus could cause problems for me at an inopportune time.
