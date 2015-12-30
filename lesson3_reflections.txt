@@ -14,3 +14,7 @@ A clone is for when you want to build ontop of a repository but in such a way so
 Forks are a GitHub version of Clone, but only from one GitHub repository to another.  Whereas clones are a Git things and can occur between GitHub and a local machine or just on the local machine.
 Branches are for when you are likely to want to merge the new code with another branch of code.  It is all work for the same purpose and so should remain tightly coupled.
 
+*Reflect: Local copies of remote branches
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Having the last known state of the remote stored locally allows git to determine how divergant the local is from the last known state of the remote.  It may be easier for determining how much the remote has diveraged as well, once a connection is made again.
+
